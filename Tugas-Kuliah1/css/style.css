@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ body {
+    background-color: black;
+} 
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 1.4rem 7%;
+    transition: all .38s ease;
+}
+
+.navbar .logo {
+    font-size: 2.3rem;
+    font-weight: 5000;
+    color: white;
+}
+
+.navbar .logo a {
+    color: white;
+    font-family: 'Gabarito';
+    text-decoration: none;
+}
+
+.navbar .nav {
+    list-style: none;
+    font-size: 1.3rem;
+    font-family: 'Gabarito';
+}
+
+.navbar .nav a {
+    margin: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar .nav a:hover {
+    border-bottom: 2px solid white;
+    color: rgb(219, 219, 219);
+}
+
+.navbar-extra a {
+    color: white;
+    display: none;
+}
+
+
+/* Halaman Pertama */
+
+section {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Gabarito';
+    width: 100%;
+    height: 75rem;
+}
+
+section .bungkus {
+    display: flex;
+}
+
+section .bungkus .main {
+    width: 30rem;
+}
+
+section .bungkus .main h1 {
+    font-size: 4rem;
+}
+
+section .bungkus .main p {
+    font-size: 1.2rem;
+}
+
+section .sec {
+    width: 30rem;
+}
+
+section .sec h1 {
+    font-size: 3rem;
+}
+
+section .sec p {
+    font-size: 1.2rem;
+}
+
+/* Akhir Halaman Pertama */
+
+/* Halaman Kedua */
+
+.main-things {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gabarito';
+    width: 100%;
+    height: 75rem;
+    text-align: center;
+}
+
+.main-things .main {
+    width: 80%;
+}
+
+.main-things .main h1 {
+    font-size: 5rem;
+    margin-bottom: 8rem;
+}
+
+.main-things .main p {
+    font-size: 1.5rem;
+}
+
+/* Akhir Halaman Kedua */
+
+/* Halaman Ketiga */
+
+.sec-things {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    width: 100%;
+    height: 75rem;
+    text-align: center;
+}
+
+.sec-things .main {
+    width: 80%;
+}
+
+.sec-things .main h1 {
+    font-size: 5rem;
+    margin-bottom: 8rem;
+}
+
+.sec-things .main p {
+    font-size: 1.2rem;
+    font-weight: 0;
+}
+
+/* Akhir Halaman Ketiga */
+
+/* Halaman Keempat */
+
+.third-things {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    width: 100%;
+    height: 75rem;
+    text-align: center;
+}
+
+.third-things .main {
+    width: 80%;
+}
+
+.third-things .main h1 {
+    font-size: 5rem;
+    margin-bottom: 8rem;
+}
+
+.third-things .main p {
+    font-size: 1.5rem;
+    font-weight: 0;
+}
+
+/* Akhir halaman keempat */
+
+/* Kesimpulan */
+
+.kesimpulan {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    width: 100%;
+    height: 75rem;
+    text-align: center;
+}
+
+.kesimpulan .main {
+    width: 80%;
+}
+
+.kesimpulan .main h1 {
+    font-size: 7rem;
+}
+
+.kesimpulan .main p {
+    font-size: 2rem;
+}
+
+.kesimpulan .main span {
+    font-style: italic;
+}
+
+/* Akhir Kesimpulan */
+
+/* Kredit */
+
+.kontak {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins';
+    width: 100%;
+    height: 75rem;
+}
+
+.kontak .gambar {
+    width: 40rem;
+    height: 40rem;
+    background-image: url(../img/about2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+}
+
+.kontak .main .konten h1 {
+    font-size: 5rem;
+}
+
+.kontak .main .konten ul {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.kontak .ikon h1 {
+    font-size: 3rem;
+}
+
+.kontak .ikon a {
+    color: black;
+    margin-right: 3rem;
+}
+
